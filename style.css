@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100%;
+    position: fixed;
+    margin: 0 auto;
+}
+
+nav ul{
+    /* width:100%; */
+    max-width: 1200px;
+    margin:0 auto;
+    padding:0;
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+nav ul li { 
+    display:inline-block;
+    list-style:none;
+    width:32%;
+    background-color: lightblue;
+    position: relative;
+    border-radius: 10px 10px 10px 10px;
+}
+nav ul li a {
+    text-align:center;
+    padding:12px 0 12px 0;
+    display:block;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li ul {
+    width: 100%;
+    display:none;
+    position: absolute;
+    background-color: lightblue;
+    border-radius: 0px 0px 10px 10px;
+}
+
+nav ul li ul li{
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+}
+
+nav ul li:hover { 
+    background: lightcyan;
+}
+
+.more:hover {
+    background-color: lightblue;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.more:hover ul { 
+    display: block;
+}
+
+.aboutMe{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1000px;
+    /* width:100%; */
+    padding-top: 30px;
+    /* background-color: indianred; */
+}
+
+#about{
+    width: 500px;
+    margin: 0 0 0 auto;
+    /* background-color: red; */
+}
+
+.contactIcon{
+    /* margin: 0 0 0 18px; */
+    /* background-color: khaki; */
+    /* width: fit-content; */
+    max-width: 70%;
+    text-align: center;
+}
+
+.contactIcon img{ 
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.contactIcon img:hover{
+    opacity: 0.77;
+}
+
+#avatar{
+    /* float:left; */
+    /* width: 500px; */
+    /* width: 100%; */
+    /* text-align: center; */
+    width: 400px;
+    /* background-color: green; */
+}
+
+@media all and (max-width: 981px) {
+    #avatar{
+        /* float:left; */
+        margin: 20px auto;
+        width: 400px;
+        text-align: center;
+    }
+
+    #about{
+        width: 100%;
+        background-color: grey;
+        padding: 0 20px;
+    }
+
+    .contactIcon{
+        margin: 0 auto;
+    }
+
+    #personal{
+        padding: 0 20px;
+    }
+}
+
+#avatar img{
+    max-width: 70%;
+}
+
+#avatar a img {
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+}
+
+main{
+    padding-top: 30px;
+}
+
+#personal{
+    max-width: 1000px;
+    margin: 0 auto;
+}
