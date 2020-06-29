@@ -79,14 +79,15 @@ nav ul li:hover {
     /* margin: 0 0 0 18px; */
     /* background-color: khaki; */
     /* width: fit-content; */
-    max-width: 70%;
+    max-width: 400px;
+    width: 70%;
     text-align: center;
 }
 
 .contactIcon img{ 
-    width: 40px;
-    height: 40px;
-    margin: 0 auto;
+    width: 15%;
+    height: auto;
+    margin: 0 3%;
 }
 
 .contactIcon img:hover{
@@ -129,11 +130,11 @@ nav ul li:hover {
     max-width: 70%;
 }
 
-#avatar a img {
+/* #avatar a img {
     width: 40px;
     height: 40px;
     margin: 20px;
-}
+} */
 
 main{
     padding-top: 30px;
@@ -142,4 +143,10 @@ main{
 #personal{
     max-width: 1000px;
     margin: 0 auto;
+}
+
+@media all and (max-width: 321px) {
+    nav{
+        display: none;
+    }
 }
