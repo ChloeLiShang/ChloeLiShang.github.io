@@ -23,7 +23,8 @@ nav ul{
     max-width: 1000px;
     height: 100%;
     margin:0 auto;
-    padding:0;
+    /* padding-left: 10px; */
+    padding: 0;
     /* text-align:center; */
     font-family: Georgia, 'Times New Roman', Times, serif; 
     /* background-color: red; */
@@ -34,7 +35,7 @@ nav ul li {
     height: 100%;
     /* width:32%; */
     /* padding: 0 10px; */
-    padding: 0 10px;
+    /* padding: 0 10px; */
     margin: 0 30px 0 0;
     /* background-color: seashell; */
     position: relative;
@@ -42,7 +43,7 @@ nav ul li {
 }
 nav ul li a {
     text-align:center;
-    padding: 21px 0;
+    padding: 21px 10px;
     display:block;
     text-decoration: none;
     color: black;
@@ -50,9 +51,10 @@ nav ul li a {
 }
 
 nav ul li ul {
-    width: 100%;
+    /* width: 100%; */
     display:none;
     position: absolute;
+    padding: 0;
     /* background-color: khaki; */
     /* margin: 0 auto; */
     /* border-radius: 0px 0px 10px 10px; */
@@ -62,7 +64,8 @@ nav ul li ul li{
     /* width: 100%; */
     /* border-radius: 0px 0px 10px 10px; */
     background-color: white;
-    padding: 0;
+    /* padding: 0; */
+    margin: 0;
 }
 
 nav ul li:hover { 
@@ -114,7 +117,7 @@ nav ul li:hover {
     max-width: 400px;
     width: 70%;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .contactIcon img{ 
@@ -138,6 +141,7 @@ nav ul li:hover {
 
 #avatar img{
     max-width: 70%;
+    border-radius: 50%;
 }
 
 /* #avatar a img {
@@ -206,6 +210,10 @@ footer div a {
     /* background-color: rosybrown; */
 }
 @media all and (max-width: 981px) {
+    nav ul {
+        padding-left: 10px;
+    }
+
     #avatar{
         /* float:left; */
         margin: 20px auto;
