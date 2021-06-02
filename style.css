@@ -89,6 +89,10 @@ nav ul li:hover {
     box-shadow: 2px 2px 4px 0 lightgrey;
 }
 
+.more ul li a{
+    text-align: left;
+}
+
 .more ul li:hover {
     background-color: whitesmoke;
     box-shadow: 4px 0 4px 0 whitesmoke;
@@ -161,6 +165,32 @@ nav ul li:hover {
     line-height: 1.8em;
 }
 
+#projects {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #5a5a5a;
+    letter-spacing: 0;
+    line-height: 1.8em;
+}
+
+/* #projects p {
+    margin-bottom: 8px;
+} */
+
+#projects ul , #projects p{
+    margin: 8px auto;
+}
+
+.project-link {
+    text-decoration: none;
+}
+
+.title {
+    border-bottom: 1px solid rgb(192, 188, 188);
+    width: fit-content;
+}
+
 #personal{
     max-width: 1000px;
     margin: 0 auto;
@@ -170,10 +200,10 @@ nav ul li:hover {
     line-height: 1.8em;
 }
 
-#personal h2 {
+/* #personal h2 {
     border-bottom: 1px solid rgb(192, 188, 188);
     width: fit-content;
-}
+} */
 
 footer {
     border-top: 1px solid #f0f0f0;
@@ -229,6 +259,10 @@ footer div a {
 
     .contactIcon{
         margin: 0 auto;
+    }
+
+    #projects{
+        padding: 0 20px;
     }
 
     #personal{
